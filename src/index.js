@@ -6,6 +6,7 @@ import { ApolloProvider } from "@apollo/react-hooks";
 import App from "./App";
 import client from "./graphql/client";
 
+
 ReactDOM.render(
   <ApolloProvider client={client}>
     <MuiThemeProvider theme={theme}>
